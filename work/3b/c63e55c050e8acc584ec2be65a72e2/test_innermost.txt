@@ -1,0 +1,1 @@
+/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/files/sub1/sub1_1/sub1_1_1/sub1_1_1_1/test_innermost.txt

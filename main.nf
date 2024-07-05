@@ -2,10 +2,15 @@
 
 nextflow.enable.dsl=2
 
-params.input_dir = 'files'
+import groovy.yaml.YamlSlurper
+
+def config = new YamlSlurper().parse(file('config.yaml'))
+
+params.input_dir = config.input_dir ?: 'files'
+params.output_dir = config.output_dir ?: 'output'
 
 process PROCESS_FILES {
-    publishDir 'output'
+    publishDir "${params.output_dir}"
 
     input:
     path txt_file
@@ -17,8 +22,6 @@ process PROCESS_FILES {
     """
     cat ${txt_file} > "processed_${txt_file}"
     """
-
-
 }
 
 workflow {
@@ -28,3 +31,4 @@ workflow {
 
     PROCESS_FILES(files_ch)
 }
+

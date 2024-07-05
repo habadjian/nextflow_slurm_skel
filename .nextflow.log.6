@@ -1,0 +1,82 @@
+Jul-05 11:34:45.569 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --resume
+Jul-05 11:34:45.814 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.1
+Jul-05 11:34:45.843 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/heiko/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
+Jul-05 11:34:45.867 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-05 11:34:45.870 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-05 11:34:45.875 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Jul-05 11:34:45.896 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-05 11:34:45.933 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
+Jul-05 11:34:45.937 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
+Jul-05 11:34:45.977 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/heiko/.nextflow/secrets/store.json
+Jul-05 11:34:45.982 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@24e08d59] - activable => nextflow.secret.LocalSecretsProvider@24e08d59
+Jul-05 11:34:46.003 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-05 11:34:46.642 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jul-05 11:34:46.663 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [festering_woese] DSL2 - revision: 03d6875254
+Jul-05 11:34:46.666 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-05 11:34:46.666 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-05 11:34:46.744 [main] DEBUG nextflow.Session - Session UUID: 4cff3f4d-a5da-4441-a775-129c0e1183bc
+Jul-05 11:34:46.744 [main] DEBUG nextflow.Session - Run name: festering_woese
+Jul-05 11:34:46.745 [main] DEBUG nextflow.Session - Executor pool size: 4
+Jul-05 11:34:46.757 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-05 11:34:46.767 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 11:34:46.801 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.1 build 5913
+  Created: 20-05-2024 09:48 UTC (02:48 PDT)
+  System: Linux 5.14.0-427.13.1.el9_4.x86_64
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 4001177@xed-ablab [100.125.162.130]
+  CPUs: 4 - Mem: 11.2 GB (6 GB) - Swap: 5.8 GB (4.4 GB)
+Jul-05 11:34:46.866 [main] DEBUG nextflow.Session - Work-dir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work [nfs]
+Jul-05 11:34:46.867 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/bin
+Jul-05 11:34:46.880 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-05 11:34:46.933 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-05 11:34:46.996 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-05 11:34:47.011 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Jul-05 11:34:47.159 [main] DEBUG nextflow.Session - Session start
+Jul-05 11:34:47.413 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-05 11:34:47.600 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Jul-05 11:34:47.600 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Jul-05 11:34:47.616 [main] DEBUG nextflow.executor.Executor - [warm up] executor > slurm
+Jul-05 11:34:47.625 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'slurm' > capacity: 100; pollInterval: 5s; dumpInterval: 5m 
+Jul-05 11:34:47.629 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: slurm)
+Jul-05 11:34:47.636 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'slurm' > queue-stat-interval: 1m
+Jul-05 11:34:47.773 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: PROCESS_FILES
+Jul-05 11:34:47.774 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
+Jul-05 11:34:47.783 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_FILES
+Jul-05 11:34:47.787 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: files/; pattern: *.txt; options: [:]
+Jul-05 11:34:47.790 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_46c9871d6b32d586: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/main.nf
+Jul-05 11:34:47.790 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-05 11:34:47.790 [main] DEBUG nextflow.Session - Session await
+Jul-05 11:34:48.176 [Task submitter] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (1); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f1/827c1a101638bbea9889cde6403f1b
+  error [nextflow.exception.IllegalFileException]: File `/home/heiko/a/nextflow_slurm_skel/output/processed_test8.txt` is outside the scope of the process work directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f1/827c1a101638bbea9889cde6403f1b
+Jul-05 11:34:48.254 [Task submitter] DEBUG nextflow.processor.TaskRun - Unable to dump error of process 'null' -- Cause: java.nio.file.NoSuchFileException: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f1/827c1a101638bbea9889cde6403f1b/.command.log
+Jul-05 11:34:48.261 [Task submitter] ERROR nextflow.processor.TaskProcessor - Error executing process > 'PROCESS_FILES (1)'
+
+Caused by:
+  File `/home/heiko/a/nextflow_slurm_skel/output/processed_test8.txt` is outside the scope of the process work directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f1/827c1a101638bbea9889cde6403f1b
+
+
+Command executed:
+
+  cat test8.txt > /home/heiko/a/nextflow_slurm_skel/output/processed_test8.txt.txt
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f1/827c1a101638bbea9889cde6403f1b
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+Jul-05 11:34:48.269 [Task submitter] DEBUG nextflow.Session - Session aborted -- Cause: File `/home/heiko/a/nextflow_slurm_skel/output/processed_test8.txt` is outside the scope of the process work directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f1/827c1a101638bbea9889cde6403f1b
+Jul-05 11:34:48.294 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: slurm) - terminating tasks monitor poll loop
+Jul-05 11:34:48.295 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-05 11:34:48.295 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-05 11:34:48.305 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=21; submittedCount=0; runningCount=-1; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=-1; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jul-05 11:34:48.489 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-05 11:34:48.537 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,1 @@
+/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/files/test3.txt

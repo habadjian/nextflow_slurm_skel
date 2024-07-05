@@ -1,123 +1,123 @@
-Jul-05 11:41:11.177 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
-Jul-05 11:41:11.509 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.1
-Jul-05 11:41:11.538 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/heiko/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
-Jul-05 11:41:11.567 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Jul-05 11:41:11.572 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Jul-05 11:41:11.577 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
-Jul-05 11:41:11.603 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Jul-05 11:41:11.643 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
-Jul-05 11:41:11.648 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
-Jul-05 11:41:11.696 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/heiko/.nextflow/secrets/store.json
-Jul-05 11:41:11.702 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4f82663e] - activable => nextflow.secret.LocalSecretsProvider@4f82663e
-Jul-05 11:41:11.711 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Jul-05 11:41:12.363 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
-Jul-05 11:41:12.385 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [furious_plateau] DSL2 - revision: 1cc333475a
-Jul-05 11:41:12.388 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Jul-05 11:41:12.388 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Jul-05 11:41:12.482 [main] DEBUG nextflow.Session - Session UUID: cdf3c9b3-aab0-4707-ae6a-a2d6bd6beae5
-Jul-05 11:41:12.483 [main] DEBUG nextflow.Session - Run name: furious_plateau
-Jul-05 11:41:12.483 [main] DEBUG nextflow.Session - Executor pool size: 4
-Jul-05 11:41:12.498 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Jul-05 11:41:12.508 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Jul-05 11:41:12.551 [main] DEBUG nextflow.cli.CmdRun - 
+Jul-05 12:12:59.551 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Jul-05 12:12:59.963 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.1
+Jul-05 12:13:00.011 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/heiko/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
+Jul-05 12:13:00.092 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-05 12:13:00.095 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-05 12:13:00.103 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Jul-05 12:13:00.145 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-05 12:13:00.206 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
+Jul-05 12:13:00.213 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
+Jul-05 12:13:00.294 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/heiko/.nextflow/secrets/store.json
+Jul-05 12:13:00.302 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@36dfbdaf] - activable => nextflow.secret.LocalSecretsProvider@36dfbdaf
+Jul-05 12:13:00.330 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-05 12:13:01.419 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jul-05 12:13:01.454 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [infallible_allen] DSL2 - revision: 19320b3917
+Jul-05 12:13:01.458 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-05 12:13:01.458 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-05 12:13:01.567 [main] DEBUG nextflow.Session - Session UUID: da5c4b33-d403-4c67-a1ca-ceaeaa24fc5d
+Jul-05 12:13:01.568 [main] DEBUG nextflow.Session - Run name: infallible_allen
+Jul-05 12:13:01.569 [main] DEBUG nextflow.Session - Executor pool size: 4
+Jul-05 12:13:01.590 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-05 12:13:01.603 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 12:13:01.676 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 24.04.1 build 5913
   Created: 20-05-2024 09:48 UTC (02:48 PDT)
-  System: Linux 5.14.0-427.13.1.el9_4.x86_64
+  System: Linux 4.18.0-513.24.1.el8_9.x86_64
   Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
   Encoding: UTF-8 (UTF-8)
-  Process: 4003516@xed-ablab [100.125.162.130]
-  CPUs: 4 - Mem: 11.2 GB (5.9 GB) - Swap: 5.8 GB (4.4 GB)
-Jul-05 11:41:12.629 [main] DEBUG nextflow.Session - Work-dir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work [nfs]
-Jul-05 11:41:12.633 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/bin
-Jul-05 11:41:12.663 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Jul-05 11:41:12.691 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Jul-05 11:41:12.755 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Jul-05 11:41:12.770 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
-Jul-05 11:41:12.974 [main] DEBUG nextflow.Session - Session start
-Jul-05 11:41:13.256 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Jul-05 11:41:13.450 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
-Jul-05 11:41:13.450 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
-Jul-05 11:41:13.467 [main] DEBUG nextflow.executor.Executor - [warm up] executor > slurm
-Jul-05 11:41:13.476 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'slurm' > capacity: 100; pollInterval: 5s; dumpInterval: 5m 
-Jul-05 11:41:13.481 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: slurm)
-Jul-05 11:41:13.488 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'slurm' > queue-stat-interval: 1m
-Jul-05 11:41:13.616 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: PROCESS_FILES
-Jul-05 11:41:13.617 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
-Jul-05 11:41:13.628 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_FILES
-Jul-05 11:41:13.635 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: files/; pattern: *.txt; options: [:]
-Jul-05 11:41:13.636 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
-  Script_4a273ab77ea62416: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/main.nf
-Jul-05 11:41:13.636 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Jul-05 11:41:13.636 [main] DEBUG nextflow.Session - Session await
-Jul-05 11:41:14.142 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (3) > jobId: 35102; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c6/acb7646471625d6d9ade1a4a04d51d
-Jul-05 11:41:14.143 [Task submitter] INFO  nextflow.Session - [c6/acb764] Submitted process > PROCESS_FILES (3)
-Jul-05 11:41:14.200 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (4) > jobId: 35103; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/76/08a9f4507fb42e1457ce4835b9d284
-Jul-05 11:41:14.201 [Task submitter] INFO  nextflow.Session - [76/08a9f4] Submitted process > PROCESS_FILES (4)
-Jul-05 11:41:14.252 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (2) > jobId: 35104; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/5a/cca647af1a0b03a8ed29d982bdd44e
-Jul-05 11:41:14.253 [Task submitter] INFO  nextflow.Session - [5a/cca647] Submitted process > PROCESS_FILES (2)
-Jul-05 11:41:14.304 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (1) > jobId: 35105; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/01/b46652412acc6781c532a00d8c3a5b
-Jul-05 11:41:14.305 [Task submitter] INFO  nextflow.Session - [01/b46652] Submitted process > PROCESS_FILES (1)
-Jul-05 11:41:14.353 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (6) > jobId: 35106; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/a3/906f2b923713d06f2b5a1d306e5cdb
-Jul-05 11:41:14.353 [Task submitter] INFO  nextflow.Session - [a3/906f2b] Submitted process > PROCESS_FILES (6)
-Jul-05 11:41:14.402 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (7) > jobId: 35107; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c6/10d2face5686fcdada84ce9bf46c32
-Jul-05 11:41:14.402 [Task submitter] INFO  nextflow.Session - [c6/10d2fa] Submitted process > PROCESS_FILES (7)
-Jul-05 11:41:14.450 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (5) > jobId: 35108; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/02/0af6fd56de20a1a83086ae50f44c28
-Jul-05 11:41:14.451 [Task submitter] INFO  nextflow.Session - [02/0af6fd] Submitted process > PROCESS_FILES (5)
-Jul-05 11:41:14.497 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (8) > jobId: 35109; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/94/66d5a979dec47f1cfc52383bafe98e
-Jul-05 11:41:14.497 [Task submitter] INFO  nextflow.Session - [94/66d5a9] Submitted process > PROCESS_FILES (8)
-Jul-05 11:41:14.525 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (9) > jobId: 35110; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/92/0a429b79d5d799bae7f21c7de97ffe
-Jul-05 11:41:14.525 [Task submitter] INFO  nextflow.Session - [92/0a429b] Submitted process > PROCESS_FILES (9)
-Jul-05 11:41:14.567 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (11) > jobId: 35111; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/0a/35ab79f936b729d5162977b167bf0c
-Jul-05 11:41:14.567 [Task submitter] INFO  nextflow.Session - [0a/35ab79] Submitted process > PROCESS_FILES (11)
-Jul-05 11:41:14.595 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (12) > jobId: 35112; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/4b/4c44b9c3e47d0cad4e83165e6641f0
-Jul-05 11:41:14.595 [Task submitter] INFO  nextflow.Session - [4b/4c44b9] Submitted process > PROCESS_FILES (12)
-Jul-05 11:41:14.643 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (14) > jobId: 35113; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/9a/d83e3c7535cf220c401ae7076f243c
-Jul-05 11:41:14.644 [Task submitter] INFO  nextflow.Session - [9a/d83e3c] Submitted process > PROCESS_FILES (14)
-Jul-05 11:41:14.695 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (10) > jobId: 35114; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/ae/11b13f76dc1ea4a1760777db33ba37
-Jul-05 11:41:14.695 [Task submitter] INFO  nextflow.Session - [ae/11b13f] Submitted process > PROCESS_FILES (10)
-Jul-05 11:41:14.744 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (13) > jobId: 35115; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/2d/e55361af17df2f26258c9f899f1ae3
-Jul-05 11:41:14.745 [Task submitter] INFO  nextflow.Session - [2d/e55361] Submitted process > PROCESS_FILES (13)
-Jul-05 11:41:14.799 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (16) > jobId: 35116; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7c/2d9ae5a6c0038dddd221e9c59a2be6
-Jul-05 11:41:14.799 [Task submitter] INFO  nextflow.Session - [7c/2d9ae5] Submitted process > PROCESS_FILES (16)
-Jul-05 11:41:14.846 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (17) > jobId: 35117; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f8/fb6f42f1c3dc21eae2b179edf1d392
-Jul-05 11:41:14.847 [Task submitter] INFO  nextflow.Session - [f8/fb6f42] Submitted process > PROCESS_FILES (17)
-Jul-05 11:41:14.890 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (15) > jobId: 35118; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c1/09563c50205a0e6dd6bdd4bfa9f4a3
-Jul-05 11:41:14.891 [Task submitter] INFO  nextflow.Session - [c1/09563c] Submitted process > PROCESS_FILES (15)
-Jul-05 11:41:14.939 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (19) > jobId: 35119; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f5/ede9572f9b4c66f4edeeebc6f7e248
-Jul-05 11:41:14.940 [Task submitter] INFO  nextflow.Session - [f5/ede957] Submitted process > PROCESS_FILES (19)
-Jul-05 11:41:14.987 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (18) > jobId: 35120; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/46/114b5926f9645f79a4953e0e45f784
-Jul-05 11:41:14.988 [Task submitter] INFO  nextflow.Session - [46/114b59] Submitted process > PROCESS_FILES (18)
-Jul-05 11:41:15.033 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (21) > jobId: 35121; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/0a/4fb5c6099b611f62df70313881ca9f
-Jul-05 11:41:15.033 [Task submitter] INFO  nextflow.Session - [0a/4fb5c6] Submitted process > PROCESS_FILES (21)
-Jul-05 11:41:15.081 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (20) > jobId: 35122; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/45/95b88f4fd65e49fdb624e00bbe46af
-Jul-05 11:41:15.081 [Task submitter] INFO  nextflow.Session - [45/95b88f] Submitted process > PROCESS_FILES (20)
-Jul-05 11:41:48.519 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35102; id: 3; name: PROCESS_FILES (3); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c6/acb7646471625d6d9ade1a4a04d51d started: 1720204908505; exited: 2024-07-05T18:41:25.839064Z; ]
-Jul-05 11:41:48.521 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Jul-05 11:41:48.548 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35103; id: 4; name: PROCESS_FILES (4); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/76/08a9f4507fb42e1457ce4835b9d284 started: 1720204908536; exited: 2024-07-05T18:41:25.830024Z; ]
-Jul-05 11:41:48.573 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35104; id: 2; name: PROCESS_FILES (2); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/5a/cca647af1a0b03a8ed29d982bdd44e started: 1720204908558; exited: 2024-07-05T18:41:25.834824Z; ]
-Jul-05 11:41:48.591 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35105; id: 1; name: PROCESS_FILES (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/01/b46652412acc6781c532a00d8c3a5b started: 1720204908578; exited: 2024-07-05T18:41:25.748101Z; ]
-Jul-05 11:41:48.614 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35106; id: 6; name: PROCESS_FILES (6); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/a3/906f2b923713d06f2b5a1d306e5cdb started: 1720204908601; exited: 2024-07-05T18:41:25.748105Z; ]
-Jul-05 11:41:48.632 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35107; id: 7; name: PROCESS_FILES (7); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c6/10d2face5686fcdada84ce9bf46c32 started: 1720204908623; exited: 2024-07-05T18:41:25.750367Z; ]
-Jul-05 11:41:48.659 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35108; id: 5; name: PROCESS_FILES (5); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/02/0af6fd56de20a1a83086ae50f44c28 started: 1720204908643; exited: 2024-07-05T18:41:25.764663Z; ]
-Jul-05 11:41:48.682 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35109; id: 8; name: PROCESS_FILES (8); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/94/66d5a979dec47f1cfc52383bafe98e started: 1720204908672; exited: 2024-07-05T18:41:25.808929Z; ]
-Jul-05 11:41:48.705 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35110; id: 9; name: PROCESS_FILES (9); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/92/0a429b79d5d799bae7f21c7de97ffe started: 1720204908693; exited: 2024-07-05T18:41:25.7913Z; ]
-Jul-05 11:41:48.730 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35111; id: 11; name: PROCESS_FILES (11); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/0a/35ab79f936b729d5162977b167bf0c started: 1720204908716; exited: 2024-07-05T18:41:25.665597Z; ]
-Jul-05 11:41:48.752 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35112; id: 12; name: PROCESS_FILES (12); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/4b/4c44b9c3e47d0cad4e83165e6641f0 started: 1720204908739; exited: 2024-07-05T18:41:25.665468Z; ]
-Jul-05 11:41:48.774 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35113; id: 14; name: PROCESS_FILES (14); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/9a/d83e3c7535cf220c401ae7076f243c started: 1720204908758; exited: 2024-07-05T18:41:25.66613Z; ]
-Jul-05 11:41:48.798 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35114; id: 10; name: PROCESS_FILES (10); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/ae/11b13f76dc1ea4a1760777db33ba37 started: 1720204908783; exited: 2024-07-05T18:41:25.667588Z; ]
-Jul-05 11:41:48.828 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35115; id: 13; name: PROCESS_FILES (13); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/2d/e55361af17df2f26258c9f899f1ae3 started: 1720204908814; exited: 2024-07-05T18:41:25.662913Z; ]
-Jul-05 11:41:48.856 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35116; id: 16; name: PROCESS_FILES (16); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7c/2d9ae5a6c0038dddd221e9c59a2be6 started: 1720204908843; exited: 2024-07-05T18:41:25.644532Z; ]
-Jul-05 11:41:48.874 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35117; id: 17; name: PROCESS_FILES (17); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f8/fb6f42f1c3dc21eae2b179edf1d392 started: 1720204908862; exited: 2024-07-05T18:41:25.645213Z; ]
-Jul-05 11:41:48.896 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35118; id: 15; name: PROCESS_FILES (15); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c1/09563c50205a0e6dd6bdd4bfa9f4a3 started: 1720204908882; exited: 2024-07-05T18:41:25.64403Z; ]
-Jul-05 11:41:48.928 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35119; id: 19; name: PROCESS_FILES (19); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f5/ede9572f9b4c66f4edeeebc6f7e248 started: 1720204908909; exited: 2024-07-05T18:41:25.664331Z; ]
-Jul-05 11:41:48.948 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35120; id: 18; name: PROCESS_FILES (18); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/46/114b5926f9645f79a4953e0e45f784 started: 1720204908935; exited: 2024-07-05T18:41:25.664473Z; ]
-Jul-05 11:41:48.963 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35121; id: 21; name: PROCESS_FILES (21); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/0a/4fb5c6099b611f62df70313881ca9f started: 1720204908955; exited: 2024-07-05T18:41:25.667139Z; ]
-Jul-05 11:41:48.984 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35122; id: 20; name: PROCESS_FILES (20); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/45/95b88f4fd65e49fdb624e00bbe46af started: 1720204908972; exited: 2024-07-05T18:41:25.664496Z; ]
-Jul-05 11:41:48.990 [main] DEBUG nextflow.Session - Session await > all processes finished
-Jul-05 11:41:53.491 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: slurm) - terminating tasks monitor poll loop
-Jul-05 11:41:53.492 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Jul-05 11:41:53.497 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
-Jul-05 11:41:53.503 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=21; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=270ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=2 GB; ]
-Jul-05 11:41:53.578 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Jul-05 11:41:53.654 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
-Jul-05 11:41:53.656 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+  Process: 2458817@ws2-ablab [100.94.20.92]
+  CPUs: 4 - Mem: 15.4 GB (2.2 GB) - Swap: 7.9 GB (7.8 GB)
+Jul-05 12:13:01.825 [main] DEBUG nextflow.Session - Work-dir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work [nfs]
+Jul-05 12:13:01.829 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/bin
+Jul-05 12:13:01.846 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-05 12:13:01.921 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-05 12:13:02.052 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-05 12:13:02.072 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Jul-05 12:13:02.422 [main] DEBUG nextflow.Session - Session start
+Jul-05 12:13:02.981 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-05 12:13:03.238 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Jul-05 12:13:03.238 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Jul-05 12:13:03.258 [main] DEBUG nextflow.executor.Executor - [warm up] executor > slurm
+Jul-05 12:13:03.352 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'slurm' > capacity: 100; pollInterval: 5s; dumpInterval: 5m 
+Jul-05 12:13:03.375 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: slurm)
+Jul-05 12:13:03.385 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'slurm' > queue-stat-interval: 1m
+Jul-05 12:13:03.649 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: PROCESS_FILES
+Jul-05 12:13:03.650 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
+Jul-05 12:13:03.668 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_FILES
+Jul-05 12:13:03.670 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_bbfa742279ae353f: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/main.nf
+Jul-05 12:13:03.671 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-05 12:13:03.671 [main] DEBUG nextflow.Session - Session await
+Jul-05 12:13:03.732 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: files/; pattern: *.txt; options: [:]
+Jul-05 12:13:05.012 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (3) > jobId: 35151; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/1b/3596d55f5ff299be77f69a967facdc
+Jul-05 12:13:05.014 [Task submitter] INFO  nextflow.Session - [1b/3596d5] Submitted process > PROCESS_FILES (3)
+Jul-05 12:13:05.137 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (4) > jobId: 35152; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/95/e2688f8a78cd321481e90f6677bae5
+Jul-05 12:13:05.138 [Task submitter] INFO  nextflow.Session - [95/e2688f] Submitted process > PROCESS_FILES (4)
+Jul-05 12:13:05.248 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (2) > jobId: 35153; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f8/8361136ea8eee8bba9ab7f592c2bb7
+Jul-05 12:13:05.248 [Task submitter] INFO  nextflow.Session - [f8/836113] Submitted process > PROCESS_FILES (2)
+Jul-05 12:13:05.349 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (1) > jobId: 35154; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c2/f37e9132981817262c3febd63dd154
+Jul-05 12:13:05.349 [Task submitter] INFO  nextflow.Session - [c2/f37e91] Submitted process > PROCESS_FILES (1)
+Jul-05 12:13:05.462 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (5) > jobId: 35155; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7a/ce447d01015b740fbe5d6e567595d5
+Jul-05 12:13:05.463 [Task submitter] INFO  nextflow.Session - [7a/ce447d] Submitted process > PROCESS_FILES (5)
+Jul-05 12:13:05.566 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (6) > jobId: 35156; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e1/de8bd430c8786d87dfc47797ca729a
+Jul-05 12:13:05.567 [Task submitter] INFO  nextflow.Session - [e1/de8bd4] Submitted process > PROCESS_FILES (6)
+Jul-05 12:13:05.673 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (8) > jobId: 35157; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f9/a2081c28261f0d054dcbc003e63c29
+Jul-05 12:13:05.673 [Task submitter] INFO  nextflow.Session - [f9/a2081c] Submitted process > PROCESS_FILES (8)
+Jul-05 12:13:05.769 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (9) > jobId: 35158; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/97/7af688facaf33b5a11b1c3b6986da3
+Jul-05 12:13:05.769 [Task submitter] INFO  nextflow.Session - [97/7af688] Submitted process > PROCESS_FILES (9)
+Jul-05 12:13:05.877 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (7) > jobId: 35159; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/71/fccaae236c5c7ca93c3069040884ad
+Jul-05 12:13:05.878 [Task submitter] INFO  nextflow.Session - [71/fccaae] Submitted process > PROCESS_FILES (7)
+Jul-05 12:13:05.981 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (10) > jobId: 35160; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/0c/b91407069a97171ba68360aacf3f16
+Jul-05 12:13:05.982 [Task submitter] INFO  nextflow.Session - [0c/b91407] Submitted process > PROCESS_FILES (10)
+Jul-05 12:13:06.093 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (11) > jobId: 35161; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/28/32310fb0b2920ac7c32f01e69aac7d
+Jul-05 12:13:06.094 [Task submitter] INFO  nextflow.Session - [28/32310f] Submitted process > PROCESS_FILES (11)
+Jul-05 12:13:06.204 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (13) > jobId: 35162; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/79/73edbcaca0a9ac048c85014194e871
+Jul-05 12:13:06.204 [Task submitter] INFO  nextflow.Session - [79/73edbc] Submitted process > PROCESS_FILES (13)
+Jul-05 12:13:06.540 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (12) > jobId: 35163; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/61/5deb53b73bde90b3d22926d1cab417
+Jul-05 12:13:06.540 [Task submitter] INFO  nextflow.Session - [61/5deb53] Submitted process > PROCESS_FILES (12)
+Jul-05 12:13:06.644 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (14) > jobId: 35164; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e7/ca7e027070a1734720be2ec6f512ad
+Jul-05 12:13:06.645 [Task submitter] INFO  nextflow.Session - [e7/ca7e02] Submitted process > PROCESS_FILES (14)
+Jul-05 12:13:06.769 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (15) > jobId: 35165; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c1/abae7198882764174b87cf5d39aeb2
+Jul-05 12:13:06.769 [Task submitter] INFO  nextflow.Session - [c1/abae71] Submitted process > PROCESS_FILES (15)
+Jul-05 12:13:06.874 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (18) > jobId: 35166; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/cd/4598e486153516f57e02f42108aef8
+Jul-05 12:13:06.875 [Task submitter] INFO  nextflow.Session - [cd/4598e4] Submitted process > PROCESS_FILES (18)
+Jul-05 12:13:06.998 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (16) > jobId: 35167; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/5c/86b1a7c93e6e29e8814e78d5d0f6f5
+Jul-05 12:13:06.999 [Task submitter] INFO  nextflow.Session - [5c/86b1a7] Submitted process > PROCESS_FILES (16)
+Jul-05 12:13:07.099 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (17) > jobId: 35168; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/a2/0515f01d961dd830d681256a5921d2
+Jul-05 12:13:07.099 [Task submitter] INFO  nextflow.Session - [a2/0515f0] Submitted process > PROCESS_FILES (17)
+Jul-05 12:13:07.208 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (19) > jobId: 35169; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/51/27cc5321da7177899f00ab61e7b646
+Jul-05 12:13:07.209 [Task submitter] INFO  nextflow.Session - [51/27cc53] Submitted process > PROCESS_FILES (19)
+Jul-05 12:13:07.319 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (20) > jobId: 35170; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/28/c2f0991aabd3a3eb37e67e72090d3c
+Jul-05 12:13:07.320 [Task submitter] INFO  nextflow.Session - [28/c2f099] Submitted process > PROCESS_FILES (20)
+Jul-05 12:13:07.414 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (21) > jobId: 35171; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/28/e304ab0babb594e60b1d2f9a570cb0
+Jul-05 12:13:07.415 [Task submitter] INFO  nextflow.Session - [28/e304ab] Submitted process > PROCESS_FILES (21)
+Jul-05 12:13:38.405 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35151; id: 3; name: PROCESS_FILES (3); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/1b/3596d55f5ff299be77f69a967facdc started: 1720206818395; exited: 2024-07-05T19:13:29.305766Z; ]
+Jul-05 12:13:38.407 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 12:13:38.470 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35152; id: 4; name: PROCESS_FILES (4); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/95/e2688f8a78cd321481e90f6677bae5 started: 1720206818452; exited: 2024-07-05T19:13:29.309315Z; ]
+Jul-05 12:13:38.517 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35153; id: 2; name: PROCESS_FILES (2); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f8/8361136ea8eee8bba9ab7f592c2bb7 started: 1720206818504; exited: 2024-07-05T19:13:29.305755Z; ]
+Jul-05 12:13:38.575 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35154; id: 1; name: PROCESS_FILES (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c2/f37e9132981817262c3febd63dd154 started: 1720206818532; exited: 2024-07-05T19:13:29.305866Z; ]
+Jul-05 12:13:38.633 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35155; id: 5; name: PROCESS_FILES (5); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7a/ce447d01015b740fbe5d6e567595d5 started: 1720206818583; exited: 2024-07-05T19:13:29.069785Z; ]
+Jul-05 12:13:38.669 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35156; id: 6; name: PROCESS_FILES (6); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e1/de8bd430c8786d87dfc47797ca729a started: 1720206818643; exited: 2024-07-05T19:13:29.074902Z; ]
+Jul-05 12:13:38.683 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35157; id: 8; name: PROCESS_FILES (8); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f9/a2081c28261f0d054dcbc003e63c29 started: 1720206818673; exited: 2024-07-05T19:13:29.069925Z; ]
+Jul-05 12:13:38.714 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35158; id: 9; name: PROCESS_FILES (9); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/97/7af688facaf33b5a11b1c3b6986da3 started: 1720206818691; exited: 2024-07-05T19:13:29.061167Z; ]
+Jul-05 12:13:38.792 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35159; id: 7; name: PROCESS_FILES (7); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/71/fccaae236c5c7ca93c3069040884ad started: 1720206818780; exited: 2024-07-05T19:13:29.063429Z; ]
+Jul-05 12:13:38.902 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35160; id: 10; name: PROCESS_FILES (10); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/0c/b91407069a97171ba68360aacf3f16 started: 1720206818858; exited: 2024-07-05T19:13:29.061162Z; ]
+Jul-05 12:13:38.918 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35161; id: 11; name: PROCESS_FILES (11); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/28/32310fb0b2920ac7c32f01e69aac7d started: 1720206818908; exited: 2024-07-05T19:13:29.068245Z; ]
+Jul-05 12:13:38.956 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35162; id: 13; name: PROCESS_FILES (13); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/79/73edbcaca0a9ac048c85014194e871 started: 1720206818940; exited: 2024-07-05T19:13:29.096485Z; ]
+Jul-05 12:13:38.972 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35163; id: 12; name: PROCESS_FILES (12); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/61/5deb53b73bde90b3d22926d1cab417 started: 1720206818965; exited: 2024-07-05T19:13:29.068246Z; ]
+Jul-05 12:13:39.011 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35164; id: 14; name: PROCESS_FILES (14); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e7/ca7e027070a1734720be2ec6f512ad started: 1720206818980; exited: 2024-07-05T19:13:28.777312Z; ]
+Jul-05 12:13:39.028 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35165; id: 15; name: PROCESS_FILES (15); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c1/abae7198882764174b87cf5d39aeb2 started: 1720206819019; exited: 2024-07-05T19:13:28.778528Z; ]
+Jul-05 12:13:39.066 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35166; id: 18; name: PROCESS_FILES (18); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/cd/4598e486153516f57e02f42108aef8 started: 1720206819037; exited: 2024-07-05T19:13:28.777503Z; ]
+Jul-05 12:13:39.120 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35167; id: 16; name: PROCESS_FILES (16); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/5c/86b1a7c93e6e29e8814e78d5d0f6f5 started: 1720206819087; exited: 2024-07-05T19:13:28.777629Z; ]
+Jul-05 12:13:39.150 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35168; id: 17; name: PROCESS_FILES (17); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/a2/0515f01d961dd830d681256a5921d2 started: 1720206819140; exited: 2024-07-05T19:13:28.889144Z; ]
+Jul-05 12:13:39.170 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35169; id: 19; name: PROCESS_FILES (19); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/51/27cc5321da7177899f00ab61e7b646 started: 1720206819158; exited: 2024-07-05T19:13:28.889781Z; ]
+Jul-05 12:13:39.189 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35170; id: 20; name: PROCESS_FILES (20); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/28/c2f0991aabd3a3eb37e67e72090d3c started: 1720206819176; exited: 2024-07-05T19:13:28.890138Z; ]
+Jul-05 12:13:39.202 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35171; id: 21; name: PROCESS_FILES (21); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/28/e304ab0babb594e60b1d2f9a570cb0 started: 1720206819192; exited: 2024-07-05T19:13:28.889016Z; ]
+Jul-05 12:13:39.219 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-05 12:13:43.388 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: slurm) - terminating tasks monitor poll loop
+Jul-05 12:13:43.389 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-05 12:13:43.395 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Jul-05 12:13:43.402 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=21; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=414ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=5; peakCpus=5; peakMemory=5 GB; ]
+Jul-05 12:13:43.501 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-05 12:13:43.577 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jul-05 12:13:43.578 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

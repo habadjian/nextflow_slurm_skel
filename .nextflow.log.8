@@ -1,82 +1,211 @@
-Jul-05 11:34:17.271 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
-Jul-05 11:34:17.739 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.1
-Jul-05 11:34:17.770 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/heiko/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
-Jul-05 11:34:17.806 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Jul-05 11:34:17.811 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Jul-05 11:34:17.815 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
-Jul-05 11:34:17.842 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Jul-05 11:34:17.883 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
-Jul-05 11:34:17.888 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
-Jul-05 11:34:17.937 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/heiko/.nextflow/secrets/store.json
-Jul-05 11:34:17.942 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4f82663e] - activable => nextflow.secret.LocalSecretsProvider@4f82663e
-Jul-05 11:34:17.952 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Jul-05 11:34:18.604 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
-Jul-05 11:34:18.632 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [boring_wescoff] DSL2 - revision: 03d6875254
-Jul-05 11:34:18.634 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Jul-05 11:34:18.635 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Jul-05 11:34:18.725 [main] DEBUG nextflow.Session - Session UUID: 4550fde0-c302-4bfa-9d09-56568f67f681
-Jul-05 11:34:18.725 [main] DEBUG nextflow.Session - Run name: boring_wescoff
-Jul-05 11:34:18.726 [main] DEBUG nextflow.Session - Executor pool size: 4
-Jul-05 11:34:18.741 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Jul-05 11:34:18.752 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Jul-05 11:34:18.807 [main] DEBUG nextflow.cli.CmdRun - 
+Jul-05 11:40:12.196 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Jul-05 11:40:12.520 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.1
+Jul-05 11:40:12.552 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/heiko/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
+Jul-05 11:40:12.582 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-05 11:40:12.587 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-05 11:40:12.592 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Jul-05 11:40:12.617 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-05 11:40:12.659 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
+Jul-05 11:40:12.665 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/nextflow.config
+Jul-05 11:40:12.714 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/heiko/.nextflow/secrets/store.json
+Jul-05 11:40:12.720 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4f82663e] - activable => nextflow.secret.LocalSecretsProvider@4f82663e
+Jul-05 11:40:12.729 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-05 11:40:13.376 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jul-05 11:40:13.402 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [compassionate_becquerel] DSL2 - revision: 14b536f8c7
+Jul-05 11:40:13.406 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-05 11:40:13.406 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-05 11:40:13.486 [main] DEBUG nextflow.Session - Session UUID: f1fc0330-3756-45be-9052-32bddca1fe96
+Jul-05 11:40:13.487 [main] DEBUG nextflow.Session - Run name: compassionate_becquerel
+Jul-05 11:40:13.487 [main] DEBUG nextflow.Session - Executor pool size: 4
+Jul-05 11:40:13.500 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-05 11:40:13.511 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 11:40:13.560 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 24.04.1 build 5913
   Created: 20-05-2024 09:48 UTC (02:48 PDT)
   System: Linux 5.14.0-427.13.1.el9_4.x86_64
   Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
   Encoding: UTF-8 (UTF-8)
-  Process: 4000889@xed-ablab [100.125.162.130]
+  Process: 4003129@xed-ablab [100.125.162.130]
   CPUs: 4 - Mem: 11.2 GB (6 GB) - Swap: 5.8 GB (4.4 GB)
-Jul-05 11:34:18.896 [main] DEBUG nextflow.Session - Work-dir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work [nfs]
-Jul-05 11:34:18.900 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/bin
-Jul-05 11:34:18.914 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Jul-05 11:34:18.952 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Jul-05 11:34:19.016 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Jul-05 11:34:19.033 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
-Jul-05 11:34:19.286 [main] DEBUG nextflow.Session - Session start
-Jul-05 11:34:19.612 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Jul-05 11:34:19.821 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
-Jul-05 11:34:19.822 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
-Jul-05 11:34:19.837 [main] DEBUG nextflow.executor.Executor - [warm up] executor > slurm
-Jul-05 11:34:19.846 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'slurm' > capacity: 100; pollInterval: 5s; dumpInterval: 5m 
-Jul-05 11:34:19.849 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: slurm)
-Jul-05 11:34:19.855 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'slurm' > queue-stat-interval: 1m
-Jul-05 11:34:19.972 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: PROCESS_FILES
-Jul-05 11:34:19.973 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
-Jul-05 11:34:19.984 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_FILES
-Jul-05 11:34:19.986 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
-  Script_46c9871d6b32d586: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/main.nf
-Jul-05 11:34:19.986 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Jul-05 11:34:19.986 [main] DEBUG nextflow.Session - Session await
-Jul-05 11:34:19.994 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: files/; pattern: *.txt; options: [:]
-Jul-05 11:34:20.428 [Task submitter] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=PROCESS_FILES (4); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e8/ffec68e870473e99843eab78abbe1d
-  error [nextflow.exception.IllegalFileException]: File `/home/heiko/a/nextflow_slurm_skel/output/processed_test13.txt` is outside the scope of the process work directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e8/ffec68e870473e99843eab78abbe1d
-Jul-05 11:34:20.497 [Task submitter] DEBUG nextflow.processor.TaskRun - Unable to dump error of process 'null' -- Cause: java.nio.file.NoSuchFileException: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e8/ffec68e870473e99843eab78abbe1d/.command.log
-Jul-05 11:34:20.507 [Task submitter] ERROR nextflow.processor.TaskProcessor - Error executing process > 'PROCESS_FILES (4)'
+Jul-05 11:40:13.651 [main] DEBUG nextflow.Session - Work-dir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work [nfs]
+Jul-05 11:40:13.654 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/bin
+Jul-05 11:40:13.695 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-05 11:40:13.714 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-05 11:40:13.789 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-05 11:40:13.805 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Jul-05 11:40:14.027 [main] DEBUG nextflow.Session - Session start
+Jul-05 11:40:14.370 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-05 11:40:14.567 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Jul-05 11:40:14.568 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Jul-05 11:40:14.583 [main] DEBUG nextflow.executor.Executor - [warm up] executor > slurm
+Jul-05 11:40:14.592 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'slurm' > capacity: 100; pollInterval: 5s; dumpInterval: 5m 
+Jul-05 11:40:14.596 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: slurm)
+Jul-05 11:40:14.601 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'slurm' > queue-stat-interval: 1m
+Jul-05 11:40:14.739 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: PROCESS_FILES
+Jul-05 11:40:14.740 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
+Jul-05 11:40:14.750 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_FILES
+Jul-05 11:40:14.752 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_f2deb0462af3a6a6: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/main.nf
+Jul-05 11:40:14.752 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-05 11:40:14.752 [main] DEBUG nextflow.Session - Session await
+Jul-05 11:40:14.766 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: files/; pattern: *.txt; options: [:]
+Jul-05 11:40:15.337 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (1) > jobId: 35081; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c9/7977abbeafd4d1c8eb3ad10d077c08
+Jul-05 11:40:15.339 [Task submitter] INFO  nextflow.Session - [c9/7977ab] Submitted process > PROCESS_FILES (1)
+Jul-05 11:40:15.397 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (3) > jobId: 35082; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/71/10695e9e3e204015324818c9fcb193
+Jul-05 11:40:15.398 [Task submitter] INFO  nextflow.Session - [71/10695e] Submitted process > PROCESS_FILES (3)
+Jul-05 11:40:15.450 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (4) > jobId: 35083; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/89/a733630dd010b9c8e0e243336b0c86
+Jul-05 11:40:15.450 [Task submitter] INFO  nextflow.Session - [89/a73363] Submitted process > PROCESS_FILES (4)
+Jul-05 11:40:15.507 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (2) > jobId: 35084; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f2/17f2ab786647d238f20817506ee5f7
+Jul-05 11:40:15.507 [Task submitter] INFO  nextflow.Session - [f2/17f2ab] Submitted process > PROCESS_FILES (2)
+Jul-05 11:40:15.562 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (6) > jobId: 35085; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/86/5057c106bfc3818922207b086a56c4
+Jul-05 11:40:15.563 [Task submitter] INFO  nextflow.Session - [86/5057c1] Submitted process > PROCESS_FILES (6)
+Jul-05 11:40:15.614 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (5) > jobId: 35086; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/55/8be03597c97f623fb41791d3bf9a22
+Jul-05 11:40:15.614 [Task submitter] INFO  nextflow.Session - [55/8be035] Submitted process > PROCESS_FILES (5)
+Jul-05 11:40:15.644 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (7) > jobId: 35087; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/2b/00cd77335b18a7a3d1b187d5533bde
+Jul-05 11:40:15.644 [Task submitter] INFO  nextflow.Session - [2b/00cd77] Submitted process > PROCESS_FILES (7)
+Jul-05 11:40:15.690 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (8) > jobId: 35088; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/54/8562c33bfd19e8a1cfc1a68537cf11
+Jul-05 11:40:15.690 [Task submitter] INFO  nextflow.Session - [54/8562c3] Submitted process > PROCESS_FILES (8)
+Jul-05 11:40:15.737 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (10) > jobId: 35089; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/3e/27a3f54bab708ce3c3e4ec2117a251
+Jul-05 11:40:15.738 [Task submitter] INFO  nextflow.Session - [3e/27a3f5] Submitted process > PROCESS_FILES (10)
+Jul-05 11:40:15.785 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (9) > jobId: 35090; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/17/29acb1353d796f3275029bd7edf0be
+Jul-05 11:40:15.786 [Task submitter] INFO  nextflow.Session - [17/29acb1] Submitted process > PROCESS_FILES (9)
+Jul-05 11:40:15.834 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (11) > jobId: 35091; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7f/bbfa32f87ea3ee89fe8328529e5256
+Jul-05 11:40:15.834 [Task submitter] INFO  nextflow.Session - [7f/bbfa32] Submitted process > PROCESS_FILES (11)
+Jul-05 11:40:15.885 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (12) > jobId: 35092; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/72/037bd9cdeee8d44c926be741a30ef5
+Jul-05 11:40:15.885 [Task submitter] INFO  nextflow.Session - [72/037bd9] Submitted process > PROCESS_FILES (12)
+Jul-05 11:40:15.928 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (13) > jobId: 35093; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/6f/0a5d63e7b5a35951f1b00831ec3e98
+Jul-05 11:40:15.928 [Task submitter] INFO  nextflow.Session - [6f/0a5d63] Submitted process > PROCESS_FILES (13)
+Jul-05 11:40:15.982 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (15) > jobId: 35094; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/97/efca13ae7174fc33b281dd1bcb1136
+Jul-05 11:40:15.982 [Task submitter] INFO  nextflow.Session - [97/efca13] Submitted process > PROCESS_FILES (15)
+Jul-05 11:40:16.019 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (14) > jobId: 35095; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/4c/e2bd47c5e436947bcdfbc046383480
+Jul-05 11:40:16.020 [Task submitter] INFO  nextflow.Session - [4c/e2bd47] Submitted process > PROCESS_FILES (14)
+Jul-05 11:40:16.059 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (16) > jobId: 35096; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/1d/83aa3627c716ce68181ec53b0c83d3
+Jul-05 11:40:16.060 [Task submitter] INFO  nextflow.Session - [1d/83aa36] Submitted process > PROCESS_FILES (16)
+Jul-05 11:40:16.092 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (17) > jobId: 35097; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f5/54845e179872d99bf5234722b78dab
+Jul-05 11:40:16.093 [Task submitter] INFO  nextflow.Session - [f5/54845e] Submitted process > PROCESS_FILES (17)
+Jul-05 11:40:16.152 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (18) > jobId: 35098; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/a5/496c5dbc6d4c3765765b21dfced488
+Jul-05 11:40:16.152 [Task submitter] INFO  nextflow.Session - [a5/496c5d] Submitted process > PROCESS_FILES (18)
+Jul-05 11:40:16.204 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (19) > jobId: 35099; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/29/f1757a0462f9e3e9f246375a254630
+Jul-05 11:40:16.205 [Task submitter] INFO  nextflow.Session - [29/f1757a] Submitted process > PROCESS_FILES (19)
+Jul-05 11:40:16.251 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (20) > jobId: 35100; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/78/650008eb7c236f8009e0669cc95a63
+Jul-05 11:40:16.252 [Task submitter] INFO  nextflow.Session - [78/650008] Submitted process > PROCESS_FILES (20)
+Jul-05 11:40:16.297 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process PROCESS_FILES (21) > jobId: 35101; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/9d/1bafe02d848141343646d28b276b03
+Jul-05 11:40:16.298 [Task submitter] INFO  nextflow.Session - [9d/1bafe0] Submitted process > PROCESS_FILES (21)
+Jul-05 11:40:49.616 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35081; id: 1; name: PROCESS_FILES (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c9/7977abbeafd4d1c8eb3ad10d077c08 started: 1720204849610; exited: 2024-07-05T18:40:25.65074Z; ]
+Jul-05 11:40:49.618 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 11:40:49.628 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35082; id: 3; name: PROCESS_FILES (3); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/71/10695e9e3e204015324818c9fcb193 started: 1720204849624; exited: 2024-07-05T18:40:25.644071Z; ]
+Jul-05 11:40:49.634 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (1)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c9/7977abbeafd4d1c8eb3ad10d077c08/processed_test8.txt` (pattern: `processed_test8.txt`)
+Jul-05 11:40:49.634 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (3)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/71/10695e9e3e204015324818c9fcb193/processed_test1.txt` (pattern: `processed_test1.txt`)
+Jul-05 11:40:49.639 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35083; id: 4; name: PROCESS_FILES (4); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/89/a733630dd010b9c8e0e243336b0c86 started: 1720204849634; exited: 2024-07-05T18:40:25.648352Z; ]
+Jul-05 11:40:49.641 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (1); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c9/7977abbeafd4d1c8eb3ad10d077c08
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test8.txt` expected by process `PROCESS_FILES (1)`
+Jul-05 11:40:49.641 [TaskFinalizer-3] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (4)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/89/a733630dd010b9c8e0e243336b0c86/processed_test13.txt` (pattern: `processed_test13.txt`)
+Jul-05 11:40:49.646 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35084; id: 2; name: PROCESS_FILES (2); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f2/17f2ab786647d238f20817506ee5f7 started: 1720204849642; exited: 2024-07-05T18:40:25.577187Z; ]
+Jul-05 11:40:49.648 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (2)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f2/17f2ab786647d238f20817506ee5f7/processed_test6.txt` (pattern: `processed_test6.txt`)
+Jul-05 11:40:49.652 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35085; id: 6; name: PROCESS_FILES (6); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/86/5057c106bfc3818922207b086a56c4 started: 1720204849649; exited: 2024-07-05T18:40:25.57526Z; ]
+Jul-05 11:40:49.655 [TaskFinalizer-5] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (6)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/86/5057c106bfc3818922207b086a56c4/processed_test21.txt` (pattern: `processed_test21.txt`)
+Jul-05 11:40:49.661 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35086; id: 5; name: PROCESS_FILES (5); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/55/8be03597c97f623fb41791d3bf9a22 started: 1720204849656; exited: 2024-07-05T18:40:25.575139Z; ]
+Jul-05 11:40:49.663 [TaskFinalizer-6] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (5)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/55/8be03597c97f623fb41791d3bf9a22/processed_test14.txt` (pattern: `processed_test14.txt`)
+Jul-05 11:40:49.668 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35087; id: 7; name: PROCESS_FILES (7); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/2b/00cd77335b18a7a3d1b187d5533bde started: 1720204849664; exited: 2024-07-05T18:40:25.64425Z; ]
+Jul-05 11:40:49.677 [TaskFinalizer-7] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (7)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/2b/00cd77335b18a7a3d1b187d5533bde/processed_test7.txt` (pattern: `processed_test7.txt`)
+Jul-05 11:40:49.680 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35088; id: 8; name: PROCESS_FILES (8); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/54/8562c33bfd19e8a1cfc1a68537cf11 started: 1720204849674; exited: 2024-07-05T18:40:25.641967Z; ]
+Jul-05 11:40:49.682 [TaskFinalizer-8] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (8)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/54/8562c33bfd19e8a1cfc1a68537cf11/processed_test9.txt` (pattern: `processed_test9.txt`)
+Jul-05 11:40:49.686 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35089; id: 10; name: PROCESS_FILES (10); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/3e/27a3f54bab708ce3c3e4ec2117a251 started: 1720204849682; exited: 2024-07-05T18:40:25.641719Z; ]
+Jul-05 11:40:49.688 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (10)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/3e/27a3f54bab708ce3c3e4ec2117a251/processed_test15.txt` (pattern: `processed_test15.txt`)
+Jul-05 11:40:49.692 [TaskFinalizer-1] ERROR nextflow.processor.TaskProcessor - Error executing process > 'PROCESS_FILES (1)'
 
 Caused by:
-  File `/home/heiko/a/nextflow_slurm_skel/output/processed_test13.txt` is outside the scope of the process work directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e8/ffec68e870473e99843eab78abbe1d
+  Missing output file(s) `processed_test8.txt` expected by process `PROCESS_FILES (1)`
 
 
 Command executed:
 
-  cat test13.txt > /home/heiko/a/nextflow_slurm_skel/output/processed_test13.txt.txt
+  cat test8.txt > processed_test8.txt.txt
 
 Command exit status:
-  -
+  0
 
 Command output:
   (empty)
 
 Work dir:
-  /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e8/ffec68e870473e99843eab78abbe1d
+  /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c9/7977abbeafd4d1c8eb3ad10d077c08
 
 Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
-Jul-05 11:34:20.514 [Task submitter] DEBUG nextflow.Session - Session aborted -- Cause: File `/home/heiko/a/nextflow_slurm_skel/output/processed_test13.txt` is outside the scope of the process work directory: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/e8/ffec68e870473e99843eab78abbe1d
-Jul-05 11:34:20.550 [main] DEBUG nextflow.Session - Session await > all processes finished
-Jul-05 11:34:20.550 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: slurm) - terminating tasks monitor poll loop
-Jul-05 11:34:20.550 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Jul-05 11:34:20.557 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=21; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
-Jul-05 11:34:20.747 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Jul-05 11:34:20.825 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+Jul-05 11:40:49.693 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35090; id: 9; name: PROCESS_FILES (9); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/17/29acb1353d796f3275029bd7edf0be started: 1720204849689; exited: 2024-07-05T18:40:25.586904Z; ]
+Jul-05 11:40:49.697 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (10); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/3e/27a3f54bab708ce3c3e4ec2117a251
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test15.txt` expected by process `PROCESS_FILES (10)`
+Jul-05 11:40:49.697 [TaskFinalizer-8] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (8); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/54/8562c33bfd19e8a1cfc1a68537cf11
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test9.txt` expected by process `PROCESS_FILES (8)`
+Jul-05 11:40:49.701 [TaskFinalizer-7] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (7); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/2b/00cd77335b18a7a3d1b187d5533bde
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test7.txt` expected by process `PROCESS_FILES (7)`
+Jul-05 11:40:49.702 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35091; id: 11; name: PROCESS_FILES (11); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7f/bbfa32f87ea3ee89fe8328529e5256 started: 1720204849697; exited: 2024-07-05T18:40:25.577204Z; ]
+Jul-05 11:40:49.703 [TaskFinalizer-6] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (5); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/55/8be03597c97f623fb41791d3bf9a22
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test14.txt` expected by process `PROCESS_FILES (5)`
+Jul-05 11:40:49.705 [TaskFinalizer-5] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (6); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/86/5057c106bfc3818922207b086a56c4
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test21.txt` expected by process `PROCESS_FILES (6)`
+Jul-05 11:40:49.707 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (2); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f2/17f2ab786647d238f20817506ee5f7
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test6.txt` expected by process `PROCESS_FILES (2)`
+Jul-05 11:40:49.708 [TaskFinalizer-3] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (4); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/89/a733630dd010b9c8e0e243336b0c86
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test13.txt` expected by process `PROCESS_FILES (4)`
+Jul-05 11:40:49.709 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (3); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/71/10695e9e3e204015324818c9fcb193
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test1.txt` expected by process `PROCESS_FILES (3)`
+Jul-05 11:40:49.710 [TaskFinalizer-10] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (9)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/17/29acb1353d796f3275029bd7edf0be/processed_test20.txt` (pattern: `processed_test20.txt`)
+Jul-05 11:40:49.711 [TaskFinalizer-10] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (9); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/17/29acb1353d796f3275029bd7edf0be
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test20.txt` expected by process `PROCESS_FILES (9)`
+Jul-05 11:40:49.718 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35092; id: 12; name: PROCESS_FILES (12); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/72/037bd9cdeee8d44c926be741a30ef5 started: 1720204849710; exited: 2024-07-05T18:40:25.574448Z; ]
+Jul-05 11:40:49.727 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35093; id: 13; name: PROCESS_FILES (13); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/6f/0a5d63e7b5a35951f1b00831ec3e98 started: 1720204849721; exited: 2024-07-05T18:40:25.572696Z; ]
+Jul-05 11:40:49.727 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (12)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/72/037bd9cdeee8d44c926be741a30ef5/processed_test18.txt` (pattern: `processed_test18.txt`)
+Jul-05 11:40:49.727 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (12); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/72/037bd9cdeee8d44c926be741a30ef5
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test18.txt` expected by process `PROCESS_FILES (12)`
+Jul-05 11:40:49.728 [TaskFinalizer-1] DEBUG nextflow.Session - Session aborted -- Cause: Missing output file(s) `processed_test8.txt` expected by process `PROCESS_FILES (1)`
+Jul-05 11:40:49.729 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (11)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7f/bbfa32f87ea3ee89fe8328529e5256/processed_test12.txt` (pattern: `processed_test12.txt`)
+Jul-05 11:40:49.732 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (11); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/7f/bbfa32f87ea3ee89fe8328529e5256
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test12.txt` expected by process `PROCESS_FILES (11)`
+Jul-05 11:40:49.733 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (13)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/6f/0a5d63e7b5a35951f1b00831ec3e98/processed_test11.txt` (pattern: `processed_test11.txt`)
+Jul-05 11:40:49.733 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (13); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/6f/0a5d63e7b5a35951f1b00831ec3e98
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test11.txt` expected by process `PROCESS_FILES (13)`
+Jul-05 11:40:49.736 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35094; id: 15; name: PROCESS_FILES (15); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/97/efca13ae7174fc33b281dd1bcb1136 started: 1720204849732; exited: 2024-07-05T18:40:25.58426Z; ]
+Jul-05 11:40:49.738 [TaskFinalizer-7] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (15)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/97/efca13ae7174fc33b281dd1bcb1136/processed_test4.txt` (pattern: `processed_test4.txt`)
+Jul-05 11:40:49.738 [TaskFinalizer-7] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (15); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/97/efca13ae7174fc33b281dd1bcb1136
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test4.txt` expected by process `PROCESS_FILES (15)`
+Jul-05 11:40:49.745 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35095; id: 14; name: PROCESS_FILES (14); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/4c/e2bd47c5e436947bcdfbc046383480 started: 1720204849740; exited: 2024-07-05T18:40:25.577337Z; ]
+Jul-05 11:40:49.746 [TaskFinalizer-3] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (14)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/4c/e2bd47c5e436947bcdfbc046383480/processed_test16.txt` (pattern: `processed_test16.txt`)
+Jul-05 11:40:49.747 [TaskFinalizer-3] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (14); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/4c/e2bd47c5e436947bcdfbc046383480
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test16.txt` expected by process `PROCESS_FILES (14)`
+Jul-05 11:40:49.761 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35096; id: 16; name: PROCESS_FILES (16); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/1d/83aa3627c716ce68181ec53b0c83d3 started: 1720204849753; exited: 2024-07-05T18:40:25.578461Z; ]
+Jul-05 11:40:49.763 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (16)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/1d/83aa3627c716ce68181ec53b0c83d3/processed_test3.txt` (pattern: `processed_test3.txt`)
+Jul-05 11:40:49.764 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (16); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/1d/83aa3627c716ce68181ec53b0c83d3
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test3.txt` expected by process `PROCESS_FILES (16)`
+Jul-05 11:40:49.772 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35097; id: 17; name: PROCESS_FILES (17); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f5/54845e179872d99bf5234722b78dab started: 1720204849768; exited: 2024-07-05T18:40:25.579205Z; ]
+Jul-05 11:40:49.773 [TaskFinalizer-6] DEBUG nextflow.processor.TaskProcessor - Process `PROCESS_FILES (17)` is unable to find [UnixPath]: `/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f5/54845e179872d99bf5234722b78dab/processed_test17.txt` (pattern: `processed_test17.txt`)
+Jul-05 11:40:49.774 [TaskFinalizer-6] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PROCESS_FILES (17); work-dir=/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/f5/54845e179872d99bf5234722b78dab
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `processed_test17.txt` expected by process `PROCESS_FILES (17)`
+Jul-05 11:40:49.781 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-05 11:40:49.782 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-05 11:40:49.786 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35098; id: 18; name: PROCESS_FILES (18); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/a5/496c5dbc6d4c3765765b21dfced488 started: 1720204849778; exited: 2024-07-05T18:40:25.575706Z; ]
+Jul-05 11:40:49.796 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35099; id: 19; name: PROCESS_FILES (19); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/29/f1757a0462f9e3e9f246375a254630 started: 1720204849791; exited: 2024-07-05T18:40:25.581568Z; ]
+Jul-05 11:40:49.797 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (2)
+Jul-05 11:40:49.806 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35100; id: 20; name: PROCESS_FILES (20); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/78/650008eb7c236f8009e0669cc95a63 started: 1720204849798; exited: 2024-07-05T18:40:25.578093Z; ]
+Jul-05 11:40:49.813 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 35101; id: 21; name: PROCESS_FILES (21); status: COMPLETED; exit: 0; error: -; workDir: /mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/9d/1bafe02d848141343646d28b276b03 started: 1720204849809; exited: 2024-07-05T18:40:25.575474Z; ]
+Jul-05 11:40:49.814 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: slurm) - terminating tasks monitor poll loop
+Jul-05 11:40:49.827 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=17; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=2; retriesCount=0; abortedCount=2; succeedDuration=0ms; failedDuration=82ms; cachedDuration=0ms;loadCpus=2; loadMemory=2 GB; peakRunning=13; peakCpus=13; peakMemory=13 GB; ]
+Jul-05 11:40:49.933 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-05 11:40:49.992 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

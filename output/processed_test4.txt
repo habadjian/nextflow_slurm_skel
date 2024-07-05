@@ -1,0 +1,1 @@
+/mnt/nfsa/users/heiko/a/nextflow_slurm_skel/work/c1/abae7198882764174b87cf5d39aeb2/processed_test4.txt

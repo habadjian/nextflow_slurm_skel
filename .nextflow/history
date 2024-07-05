@@ -45,3 +45,10 @@
 2024-07-05 11:39:19	36.7s	naughty_gilbert	ERR	49bad22b2a757de547eefc275f8d55fa	f627aa4b-a609-4ef0-95c1-c59c9bd37c15	nextflow run main.nf
 2024-07-05 11:40:13	37s	compassionate_becquerel	ERR	14b536f8c7a0886f55c8b3f99ee51952	f1fc0330-3756-45be-9052-32bddca1fe96	nextflow run main.nf
 2024-07-05 11:41:12	41.6s	furious_plateau	OK	1cc333475a63f3d8d4ce7b248708b4e1	cdf3c9b3-aab0-4707-ae6a-a2d6bd6beae5	nextflow run main.nf
+2024-07-05 11:54:43	42.1s	backstabbing_brenner	OK	1cc333475a63f3d8d4ce7b248708b4e1	b29f7385-b89f-45c4-af7e-9e39479faa0c	nextflow run main.nf
+2024-07-05 12:06:50	-	marvelous_meucci	-	454af8fd670a09274cdbbaba24d2bbf9	bb6b60b7-8764-4f2b-9003-40f537d01a14	nextflow run main.nf
+2024-07-05 12:07:28	-	admiring_babbage	-	93382ded5226de17a238f00e9a0d2975	11007ffc-a881-4fa4-8717-1e51660472e8	nextflow run main.nf
+2024-07-05 12:08:14	-	tiny_angela	-	c068715b78a321166222a2806a89d00f	5e2185cd-96cd-4e87-9536-14141ccef8d6	nextflow run main.nf
+2024-07-05 12:11:00	-	desperate_lovelace	-	2c4d484c7df49386c0f09ca5f2ce7330	b0d75d3e-7d44-4ee3-b541-0e16500fa3f0	nextflow run main.nf
+2024-07-05 12:11:11	-	clever_crick	-	bd0a9807f980471334c4973cbcd49e1e	2e9c3ab5-4bfb-4897-8c24-03cd1ad0ab56	nextflow run main.nf
+2024-07-05 12:13:01	42.5s	infallible_allen	OK	19320b3917eee4ad27789d34fe335471	da5c4b33-d403-4c67-a1ca-ceaeaa24fc5d	nextflow run main.nf

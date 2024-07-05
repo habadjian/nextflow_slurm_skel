@@ -3,22 +3,22 @@
 nextflow.enable.dsl=2
 
 params.input_dir = 'files'
-params.output_dir = '/home/heiko/a/nextflow_slurm_skel/work/processed_files'
 
 process PROCESS_FILES {
+    publishDir 'output'
+
     input:
     path txt_file
 
     output:
-    path ("processed_${txt_file}")
+    path "processed_${txt_file}"
 
     script:
     """
-    cat ${txt_file} > processed_${txt_file}
+    cat ${txt_file} > "processed_${txt_file}"
     """
 
-    //processed_${txt_file.baseName}.txt
-    //"${params.output_dir}/processed_${txt_file}"
+
 }
 
 workflow {
